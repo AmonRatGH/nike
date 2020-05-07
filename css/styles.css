@@ -1,0 +1,118 @@
+html{
+	background: rgb(224,234,252);
+	background: linear-gradient(90deg, rgba(224,234,252,1) 0%, rgba(207,222,243,1) 100%);
+}
+#container {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+label{
+	font-family: 'tradegothiclt', sans-serif;
+}
+.choseButton{
+	width:9em;
+	height:5em;
+	border:0.25em double black;
+	margin-top:1em;
+	margin-bottom:1em;
+	border-radius:1em;
+	cursor: pointer;
+}
+.colorButton{
+	width:9em;
+	height:5em;
+	border:0.25em double black;
+	margin-top:10em;
+	border-radius:1em;
+	cursor: pointer;
+	font-family: 'tradegothiclt', sans-serif;
+}
+#pathsvg{
+	transition: fill 2s linear;
+	fill:#000000;
+}
+.naslov{
+	text-align: center;
+	font-family: 'tradegothiclt', sans-serif;
+	font-size: 4em;
+}
+.borderStyle1{
+	border:0.3em double black;
+	text-align: center;
+	width: 20em;
+	margin: auto;
+	margin-bottom:1em;
+	border-radius:1em;
+	background-color:white;
+	margin-top:2em;
+}
+.borderStyle2{
+	border:0.3em double black;
+	width: 40em;
+	height: 20em;
+	border-radius: 1em;
+	background-color:white;
+}
+.borderStyle3{
+	border: 0.3em double black;
+	width: 10em;
+	height: 20em;
+	border-radius: 1em;
+	background-color:white;
+	margin-left:1.5em;
+}
+.borderStyle4{
+	border: 0.3em double black;
+	text-align:center;
+	width: 10em;
+	height: 20em;
+	border-radius: 1em;
+	background-color:white;
+	margin-right:1.5em;
+}
+.Nike1s{
+	width:40em;
+	text-align:center;
+	visibility: visible;
+	transition: fillStlye() 2s linear;
+}
+.Nike2s, .Nike3s{
+	width:40em;
+	margin: auto;
+	visibility: visible;
+}
+.namig{
+	margin-top: 0.75em;
+	text-align: center;
+	float: left;
+	width: 1em;
+}
+.namigTekst{
+	padding-top:1em;
+	font-family: 'tradegothiclt', sans-serif;
+	text-align: justify;
+	margin-left: 3.5em;
+	text-align: center;
+	width:30.5em;
+	float:left;
+}
+.namig2{
+	float:right;
+	margin-top: 0.75em;
+	width: 1em;
+	margin-right:2em;
+}
+.imgNamig{
+	cursor: pointer;
+    animation:spin 3s linear infinite;
+}
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(720deg); } }
+.colorpicker{
+	margin-top:5em;
+	text-align: center;
+	font-family: 'tradegothiclt', sans-serif;
+}
+.imgNamig:hover{
+	animation: paused;
+}
